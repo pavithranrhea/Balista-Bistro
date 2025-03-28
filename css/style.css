@@ -1,0 +1,121 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background-color: #7DBD5E !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.navbar-brand img {
+  height: 40px;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: bold;
+  padding: 1rem 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link.active {
+  background-color: #6FA456;
+  padding: 1rem 1rem;
+  border-radius: 0;
+}
+
+.navbar-nav.flex-row .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 450px;
+  padding: 60px 20px;
+  text-align: center;
+}
+.hero img {
+  width: 2560px;
+  height: 1000px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+.featured {
+  padding: 60px 20px;
+}
+.featured .card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.featured .card-body {
+  background-color: #6c6c6c;
+  color: white;
+}
+.reviews {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+}
+.review-item {
+  margin-bottom: 30px;
+}
+.review-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: inline-block;
+}
+
+
+
+/* Checkout button */
+
+.checkout-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #7DBD5E;
+  color: white;
+  border: none;
+  padding: 20px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 999;
+}
+.checkout-btn:hover {
+  background-color: #5a9e43;
+  transform: scale(1.05);
+}
+
+
+/* Fonts */
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
