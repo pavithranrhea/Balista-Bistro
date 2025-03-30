@@ -70,7 +70,7 @@ h4 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #ccc;
+  background-color:#E9B940;
   display: inline-block;
 }
 
@@ -175,9 +175,14 @@ h4 {
   color:#5a9e43;
 }
 
+.rewardshero button {
+  background-color:#6FA456;
+}
+
+
 /* Rewards Gallery */
 .rewards-gallery {
-  padding: 2rem 0;
+  padding: 0 0;
   color:#7DBD5E;
 }
 
