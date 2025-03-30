@@ -1,163 +1,258 @@
 <!-- Homepage -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bálista</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bálista</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+      <a class="navbar-brand" href="index.html"
+        ><img src="images/textlogo-white.png" alt="Logo" height="30"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">MENU</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">ORDERS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="rewards.html">REWARDS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-cart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-person"></i></a>
+          </li>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
-    <a class="navbar-brand" href="index.html"><img src="images/textlogo-white.png" alt="Logo" height="30"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">ORDERS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
-        <li class="nav-item"><a class="nav-link" href="rewards.html">REWARDS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart"></i></a></li>
-        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person"></i></a></li>
-      
-        <li class="nav-item d-flex align-items-center">
-          <a class="nav-link" href="#"><img src="images/shoppingbasket-white.png" alt="Cart" height="30"></a>
-        </li>
-        <li class="nav-item d-flex align-items-center">
-          <a class="nav-link" href="#"><img src="images/user-white.png" alt="User" height="30"></a>
-        </li>
-    </ul>
-    
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-
-      <!-- Slide 1 -->
-      <div class="carousel-item active hero">
-        <img src="images/banners/banner1.jpg" class="d-block w-100" alt="Slide 1">
-        <div class="carousel-caption d-none d-md-block">
-          <h2> Welcome to Balista Bistro!</h2>
-        </div>
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link" href="#"
+              ><img
+                src="images/shoppingbasket-white.png"
+                alt="Cart"
+                height="30"
+            /></a>
+          </li>
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link" href="#"
+              ><img src="images/user-white.png" alt="User" height="30"
+            /></a>
+          </li>
+        </ul>
       </div>
-      <!-- Slide 2 -->
-      <div class="carousel-item hero">
-        <img src="images/banners/banner2.png" class="d-block w-100" alt="Slide 2">
-        <div class="carousel-caption d-none d-md-block">
-          <h2>Tradition Twisted, Taste Amplified</h2>
-          <p>Spice-forward fusion done right.</p>
-        </div>
-      </div>
-    </div>
-  
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+    </nav>
 
-  <!-- Featured Dishes -->
-  <section class="featured container">
-    <div class="row text-center mb-4">
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/pizza-square.jpg" class="card-img-top" alt="Paneer Supreme Pizza">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Paneer Supreme Pizza</h5>
-            <p class="card-text"> Creamy marinated paneer meets bold spices, fresh veggies, and a mint-cilantro drizzle for a vibrant fusion of flavors. </p>
-            <a href="#" class="btn btn-light">View Product</a>
+    <!-- Hero Section -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active hero">
+          <img
+            src="images/banners/banner1.jpg"
+            class="d-block w-100"
+            alt="Slide 1"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Balista Bistro!</h2>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item hero">
+          <img
+            src="images/banners/banner2.png"
+            class="d-block w-100"
+            alt="Slide 2"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Tradition Twisted, Taste Amplified</h2>
+            <p>Spice-forward fusion done right.</p>
           </div>
         </div>
       </div>
-      <div class="col-md-4 mt-4 mt-md-0">
-        <div class="card">
-          <img src="images/indianclub-square.jpg" class="card-img-top" alt="Tandoori Paneer Club Sandwich">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Tandoori Paneer Club Sandwich</h5>
-            <p class="card-text">Spiced tandoori-paneer layers with crisp veggies and a zesty sauce, stacked between toasted bread. </p>
-            <a href="#" class="btn btn-light">View Product</a>
+
+      <!-- Controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Featured Dishes -->
+    <section class="featured container">
+      <div class="row text-center mb-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/pizza-square.jpg"
+              class="card-img-top"
+              alt="Paneer Supreme Pizza"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Paneer Supreme Pizza</h5>
+              <p class="card-text">
+                Creamy marinated paneer meets bold spices, fresh veggies, and a
+                mint-cilantro drizzle for a vibrant fusion of flavors.
+              </p>
+              <a href="#" class="btn btn-light">View Product</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 mt-md-0">
+          <div class="card">
+            <img
+              src="images/indianclub-square.jpg"
+              class="card-img-top"
+              alt="Tandoori Paneer Club Sandwich"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Tandoori Paneer Club Sandwich</h5>
+              <p class="card-text">
+                Spiced tandoori-paneer layers with crisp veggies and a zesty
+                sauce, stacked between toasted bread.
+              </p>
+              <a href="#" class="btn btn-light">View Product</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 mt-md-0">
+          <div class="card">
+            <img
+              src="images/chaat-square.jpg"
+              class="card-img-top"
+              alt="Samosa Chole Chaat"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Samosa Chole Chaat</h5>
+              <p class="card-text">
+                Crispy samosas meet tangy chole, topped with yogurt, chutneys,
+                and crunchy sev. A sweet, spicy, and savory explosion in every
+                bite.
+              </p>
+              <a href="#" class="btn btn-light">View Product</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 mt-4 mt-md-0">
-        <div class="card">
-          <img src="images/chaat-square.jpg" class="card-img-top" alt="Samosa Chole Chaat">
-          <div class="card-body">
-            <h5 class="card-title fw-bold">Samosa Chole Chaat</h5>
-            <p class="card-text">Crispy samosas meet tangy chole, topped with yogurt, chutneys, and crunchy sev. A sweet, spicy, and savory explosion in every bite.</p>
-            <a href="#" class="btn btn-light">View Product</a>
+    </section>
+
+    <!-- Recent Reviews -->
+    <section class="reviews text-center">
+      <h4 class="fw-bold mb-5">RECENT REVIEWS</h4>
+      <div class="container">
+        <div class="row justify-content-center review-item">
+          <div class="col-md-1">
+            <div class="review-avatar"></div>
+          </div>
+          <div class="col-md-6 text-start">
+            <strong>A Flavorful Fusion Dream!</strong>
+            <p>
+              I’ve never tasted anything quite like this before—classic comfort
+              dishes with a bold Indian twist! Every bite was bursting with
+              spice, texture, and creativity. The team clearly puts a lot of
+              heart into both the food and the service. Can’t wait to come back!
+            </p>
+            <i>- Anjali R.</i>
+          </div>
+        </div>
+        <div class="row justify-content-center review-item">
+          <div class="col-md-1">
+            <div class="review-avatar"></div>
+          </div>
+          <div class="col-md-6 text-start">
+            <strong>A Must-Try for Foodies </strong>
+            <p>
+              If you love trying new things, this is your spot. The menu has so
+              many fun, unique options, and everything I’ve tried so far has
+              been amazing. Friendly staff, chill vibes, and food that’s full of
+              flavor—what more could you ask for?
+            </p>
+            <i>- Chris M.</i>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Recent Reviews -->
-  <section class="reviews text-center">
-    <h4 class="fw-bold mb-5">RECENT REVIEWS</h4>
-    <div class="container">
-      <div class="row justify-content-center review-item">
-        <div class="col-md-1">
-          <div class="review-avatar"></div>
-        </div>
-        <div class="col-md-6 text-start">
-          <strong>A Flavorful Fusion Dream!</strong>
-          <p>I’ve never tasted anything quite like this before—classic comfort dishes with a bold Indian twist! Every bite was bursting with spice, texture, and creativity. The team clearly puts a lot of heart into both the food and the service. Can’t wait to come back!</p>
-          <i>- Anjali R.</i>
-        </div>
-      </div>
-      <div class="row justify-content-center review-item">
-        <div class="col-md-1">
-          <div class="review-avatar"></div>
-        </div>
-        <div class="col-md-6 text-start">
-          <strong>A Must-Try for Foodies </strong>
-          <p>If you love trying new things, this is your spot. The menu has so many fun, unique options, and everything I’ve tried so far has been amazing. Friendly staff, chill vibes, and food that’s full of flavor—what more could you ask for? </p>
-          <i>- Chris M.</i>
-        </div>
-      </div>
-    </div>
-  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <a href="checkout.html" class="checkout-btn" title="Checkout">
+      <img
+        src="images/shoppingbasket-white.png"
+        alt="Checkout Icon"
+        height="50"
+      />
+    </a>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <a href="checkout.html" class="checkout-btn" title="Checkout">
-  <img src="images/shoppingbasket-white.png" alt="Checkout Icon" height="50">
-  </a>
+    <footer class="footer text-white py-4 mt-5">
+      <div
+        class="container d-flex justify-content-between align-items-center flex-wrap"
+      >
+        <!-- Left: Social Icons -->
+        <div class="social-icons">
+          <a
+            href="https://instagram.com/balista_usa"
+            target="_blank"
+            class="text-white me-3"
+          >
+            <img
+              src="images/icons8-instagram-100 (2).png"
+              alt="Instagram"
+              height="40px"
+            />
+          </a>
+          <a href="https://facebook.com" target="_blank" class="text-white">
+            <img
+              src="images/icons8-facebook-100 (1).png"
+              alt="Facebook"
+              height="40px"
+            />
+          </a>
+        </div>
 
-  <footer class="footer text-white py-4 mt-5">
-    <div class="container d-flex justify-content-between align-items-center flex-wrap">
-      <!-- Left: Social Icons -->
-      <div class="social-icons">
-        <a href="https://instagram.com/balista_usa" target="_blank" class="text-white me-3">
-          <img src="images/icons8-instagram-100 (2).png" alt="Instagram" height="40px">
-        </a>
-        <a href="https://facebook.com" target="_blank" class="text-white">
-          <img src="images/icons8-facebook-100 (1).png" alt="Facebook" height="40px">
-        </a>
+        <!-- Right: Address -->
+        <div class="address text-end mt-3 mt-md-0">
+          <p class="mb-0">1734 Oak Tree Rd, Edison, NJ 08820</p>
+        </div>
       </div>
-  
-      <!-- Right: Address -->
-      <div class="address text-end mt-3 mt-md-0">
-        <p class="mb-0">1734 Oak Tree Rd, Edison, NJ 08820</p>
-      </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
