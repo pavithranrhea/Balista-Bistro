@@ -1,7 +1,13 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF; 
 }
+
+h4 {
+  color: #E9B940;
+}
+
 .navbar {
   background-color: #7DBD5E !important;
   padding-top: 1rem;
@@ -34,12 +40,10 @@ body {
   background-repeat: no-repeat;
   color: white;
   height: 450px;
-  padding: 60px 20px;
   text-align: center;
 }
 .hero img {
-  width: 2560px;
-  height: 1000px;
+  width: auto;
   object-fit: cover;
   margin-top: 20px;
 }
@@ -52,7 +56,7 @@ body {
   overflow: hidden;
 }
 .featured .card-body {
-  background-color: #6c6c6c;
+  background-color: #6FA456;
   color: white;
 }
 .reviews {
@@ -70,7 +74,36 @@ body {
   display: inline-block;
 }
 
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  width: auto;
+  border-radius: 10px;
+}
 
+/* Reward box */
+.container {
+    position: relative;
+    text-align: center;
+}
+  
+
+.bottom-left {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+.footer {
+  background-color: #6FA456;
+}
+.footer a img {
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.footer a:hover img {
+  transform: scale(1.1);
+}
 
 /* Checkout button */
 
@@ -118,4 +151,129 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
+}
+
+
+/* Rewards */
+.rewards h1 {
+  color: #7DBD5E;
+}
+
+.rewardsmain h4 {
+  text-align: center;
+}
+
+.rewardsmain img {
+  width: 200px;
+}
+
+.rewardshero h1 {
+  color:#7DBD5E;
+}
+
+.rewardshero p {
+  color:#5a9e43;
+}
+
+/* Rewards Gallery */
+.rewards-gallery {
+  padding: 2rem 0;
+  color:#7DBD5E;
+}
+
+.rewards-gallery img {
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 15px;
+}
+
+.rewards-gallery img:hover {
+  transform: scale(1.05);
+}
+
+.rewards-gallery p {
+  font-size: 13px;
+}
+
+.centered-image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.bottom-overlay-text {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+}
+
+.rewardsmain button {
+  background-color:#5a9e43;
+}
+
+
+/* Hero */
+.hero-banner {
+  position: relative;
+  height:300px;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: left;
+  z-index: 2;
+  max-width: 600px;
+  padding: 0 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.story img {
+  border-radius: 15px;
+}
+
+.story h5 {
+  color:#E9B940;
 }
